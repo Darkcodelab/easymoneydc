@@ -1,0 +1,160 @@
+:root {
+  --primary: #6654a4;
+  --secondary-font: #656668;
+}
+
+.contact__container {
+  max-width: 1200px;
+  margin: 135px auto 139px;
+  position: relative;
+}
+
+.contact__section__wrapper {
+  max-width: 990px;
+  padding: 3em;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: white;
+}
+
+.contact__heading {
+  text-align: center;
+}
+
+.contact__heading h1 {
+  font-size: 40px;
+  font-weight: normal;
+  color: var(--primary);
+  margin-bottom: 38px;
+}
+
+.contact__form__container {
+  display: flex;
+  align-items: stretch;
+}
+
+.contact__form__container div {
+  flex: 1;
+}
+
+.contact__form__div {
+  margin-right: 30px;
+}
+.contact__details__div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.contact__form__div h3 {
+  color: var(--secondary-font);
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.contact__form {
+  margin-top: 13px;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0 0;
+}
+
+input,
+textarea {
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 3px 0 10px;
+  border: 1px solid #b4bec8;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  outline: none;
+  color: white;
+  background: var(--primary);
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0;
+}
+
+.contact__text > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 18px 0 0;
+}
+
+.contact__text i {
+  color: #231f20;
+}
+
+.contact__text div p {
+  color: var(--secondary-font);
+  margin-left: 12px;
+}
+
+.map {
+  display: flex;
+  align-items: flex-end;
+}
+.map img {
+  display: block;
+  max-width: 100%;
+}
+
+/*Background Dots*/
+.contact__bg-bottom-left {
+  position: absolute;
+  top: 80%;
+  z-index: -1;
+  left: 12px;
+}
+
+.contact__bg-top-right {
+  position: absolute;
+  right: 30px;
+  top: -50px;
+  z-index: -1;
+}
+/*Background Dots*/
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    margin: 70px auto;
+  }
+
+  .contact__form__container {
+    flex-direction: column;
+  }
+
+  .contact__details__div,
+  .contact__form__div {
+    margin: 0;
+  }
+  .contact__details__div {
+    margin-top: 12px;
+  }
+  .map {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact__section__wrapper {
+    padding: 12px;
+  }
+}
+
+/*Media queries*/

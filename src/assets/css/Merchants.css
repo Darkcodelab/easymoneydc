@@ -1,0 +1,15 @@
+/*Consumer Page and Merchants share almost the same styling*/
+
+.hero__image__section.merchant__section {
+  order: 1;
+  margin-top: 20px;
+}
+
+.hero__heading.merchant h1 {
+  margin-bottom: 36px;
+}
+
+.hero__heading.merchant p {
+  text-align: center;
+  margin-bottom: 36px;
+}
