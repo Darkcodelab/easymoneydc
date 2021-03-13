@@ -132,6 +132,84 @@
   max-width: 500px;
 }
 
+.living__wrapper {
+  max-width: 1400px;
+  margin: 128px auto 136px;
+}
+
+.living__hero {
+  text-align: center;
+}
+
+.living__hero h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.living__hero p {
+  color: #0f001a;
+  margin-top: 20px;
+}
+
+.living__cards {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.living__card {
+  width: 187px;
+  margin: 46px 39px 0;
+  padding: 36px 0;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+}
+
+.transparency-img {
+  padding: 10px 0;
+}
+
+.culture__wrapper {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.culture__text__container h2 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.culture__img__container img {
+  display: block;
+  max-width: 100%;
+}
+
+.culture__text__container p {
+  margin-top: 20px;
+  color: #6a7282;
+  max-width: 700px;
+  margin-bottom: 128px;
+}
+
+@media screen and (max-width: 928px) {
+  .culture__wrapper {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .culture__text__container {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 798px) {
   .about__hero {
     flex-direction: column-reverse;
