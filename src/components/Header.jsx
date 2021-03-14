@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Logo from "../assets/images/logo2.png";
 import facebook from "../assets/images/facebook.png";
 import instagram from "../assets/images/instagram.png";
@@ -97,7 +97,7 @@ const Header = () => {
             <div className="nav__social">
               <div className="social__link__a">
                 <a href="/" className="social__link">
-                  يبرع
+                  عربي
                 </a>
               </div>
               <div className="social__link__a social__link__icon">
