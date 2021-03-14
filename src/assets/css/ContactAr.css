@@ -1,0 +1,30 @@
+.arabic__contact__container,
+.arabic__contact__container input {
+  text-align: right;
+}
+
+.arabic__contact__container .contact__section__wrapper {
+  direction: ltr;
+}
+
+.arabic__contact__container input[type="submit"] {
+  text-align: center;
+}
+
+.arabic__contact__text {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.arabic__contact__text div {
+  flex-direction: row-reverse;
+}
+
+.arabic__contact__text div i {
+  padding: 0;
+  padding-left: 12px;
+}
+
+.arabic__contact__container .map {
+  justify-content: flex-end;
+}

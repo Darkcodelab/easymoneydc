@@ -1,0 +1,17 @@
+.arabic__wrapper .consumer__container {
+  direction: ltr !important;
+}
+
+.arabic__wrapper .consumer__howto:nth-child(odd) {
+  text-align: right;
+}
+
+.arabic__wrapper .consumer__howto:nth-child(odd) a {
+  margin-right: 198px;
+}
+
+@media screen and (max-width: 1020px) {
+  .arabic__wrapper .consumer__howto:nth-child(odd) a {
+    margin-right: 0;
+  }
+}

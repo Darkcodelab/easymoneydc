@@ -1,52 +1,53 @@
 import React from "react";
 import "../assets/css/Contact.css";
+import "../assets/css/ContactAr.css";
 import Map from "../assets/images/maps.png";
 import CDots from "../assets/images/c-dots.png";
 
 //Components
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "./FooterAr";
+import Header from "./HeaderAr";
 
-const Contact = () => {
+const ContactAr = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper arabic__wrapper">
       <Header />
-      <div className="contact__container">
+      <div className="contact__container arabic__contact__container">
         <div className="contact__bg-top-right">
           <img src={CDots} alt="Dots" />
         </div>
         <section className="contact__section__wrapper">
           <div className="contact__heading">
-            <h1>Get In Touch</h1>
+            <h1>ﻞﺻاﻮﺗ ﻰﻠﻋ ﻰﻘﺑا</h1>
           </div>
           <div className="contact__form__container">
             <div className="contact__form__div">
-              <h3>Leave us a message</h3>
+              <h3>ﺔﻟﺎﺳر ﺎﻨﻟ كﺮﺗا</h3>
               <form action="/" className="contact__form">
                 <div className="formgroup">
-                  <label htmlFor="name">Name: </label>
+                  <label htmlFor="name">مسألا </label>
                   <input
                     type="text"
                     name="name"
-                    placeholder="Firstname Lastname"
+                    placeholder="ﺮﻴﺧﺎﻟا ﻢﺳﺎﻟا - لوﺎﻟا ﻢﺳﺎﻟا"
                   />
                 </div>
                 <div className="formgroup">
-                  <label htmlFor="email">Email: </label>
+                  {/* <label htmlFor="email">Email: </label> */}
                   <input
                     type="email"
                     name="email"
-                    placeholder="Email Address"
+                    placeholder="ﻲﻧوﺮﺘﻜﻟﺎﻟا ﺪﻳﺮﺒﻟا "
                   />
                 </div>
                 <div className="formgroup">
                   <textarea name="message" cols="30" rows="10"></textarea>
                 </div>
-                <input type="submit" value="Send" />
+                <input type="submit" value="لاسرإ" />
               </form>
             </div>
             <div className="contact__details__div">
-              <div className="contact__text">
+              <div className="contact__text arabic__contact__text">
                 <div className="phone">
                   <i className="fas fa-phone-alt"></i>
                   <p>19926</p>
@@ -57,7 +58,7 @@ const Contact = () => {
                 </div>
                 <div className="address">
                   <i className="fas fa-map-marker-alt"></i>
-                  <p>46 Al thawra, Almazah, Masr El gedeeda, Cairo, Egypt</p>
+                  <p>ﺮﺼﻣ ,ﺔﻇﺎﻤﻟأ ,ةرﻮﺜﻟا عرﺎﺷ ٤٦ ﺮﺼﻣ ,ةﺮﻫﺎﻘﻟا ,ةﺪﻳﺪﺠﻟا </p>
                 </div>
               </div>
               <div className="map">
@@ -77,4 +78,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactAr;

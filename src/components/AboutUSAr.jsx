@@ -1,8 +1,8 @@
 import React from "react";
 
 //Components
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./HeaderAr";
+import Footer from "./FooterAr";
 
 //Image files
 import AboutImg from "../assets/images/aboutus_img.png";
@@ -23,22 +23,21 @@ import CultureImg from "../assets/images/culture_img.svg";
 
 //CSS file(s)
 import "../assets/css/AboutUs.css";
+import "../assets/css/AboutUsAr.css";
 
-const AboutUs = () => {
+const AboutUsAr = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper arabic__wrapper">
       <Header />
       <div className="about__container">
         <section className="about__hero">
           <div className="about__text">
-            <h1>About EasyCash</h1>
+            <h1>شﺎﻛ يﺰﻳا ﻦﻋ</h1>
             <p>
-              EasyCash aims to encourage the Egyptians toward digital payments
-              simplifying the payment process and creating a seamless purchasing
-              experience. EasyCash offers a complete technology suite
-              aggregating the payment ecosystem; while leveraging its technology
-              to alter the financial sector and lead the transformation towards
-              financial inclusion.
+              ،ﻲﻧوﺮﺘﻜﻟﺎﻟا ﻊﻓﺪﻟا ﻲﻟا لﻮﺤﺘﻟا ﻰﻠﻋ ﻦﻴﻳﺮﺼﻤﻟا ﻊﻴﺠﺸﺗ ﻰﻟا شﺎﻛ يﺰﻳا فﺪﻬﺗ
+              شﺎﻛ يﺰﻳا مﺪﻘﺗ .ﺔﻔﻠﺘﺨﻣ ﻊﻓد ﺔﺑﺮﺠﺗ ﺮﻴﻓﻮﺗو ءاﺮﺸﻟاو ﻊﻴﺒﻟا ﺔﻴﻠﻤﻋ ﻞﻴﻬﺴﺗو
+              يدﺎﺼﺘﻗﺎﻟا مﺎﻈﻨﻟا ﺰﻳﺰﻌﺘﺑ هروﺪﺑ مﻮﻘﻳ ﺚﻴﺣ ﻞﻬﺳو ﻦﻣا ﻞﻣﺎﻜﺘﻣ ﻲﺟﻮﻟﻮﻨﻜﺗ
+              مﺎﻈﻧ ﻲﻟﺎﻤﻟا لﻮﻤﺸﻟا ﻖﻴﻘﺤﺘﻟ ﺔﻴﻛذ لﻮﻠﺣ ﻢﻳﺪﻘﺗو
             </p>
           </div>
           <div className="about__img">
@@ -56,9 +55,8 @@ const AboutUs = () => {
             <div className="about__timeline__text about__timeline__first">
               <h2>2019</h2>
               <p>
-                Confident in the large potential of the Egyptian market and the
-                importance of digitalization, EasyCash was founded to develop
-                operations in Egypt.
+                ﺔﻴﻤﻫﺄﺑ ﺎﻧﺎﻤﻳاو يﺮﺼﻤﻟا قﻮﺴﻟا ﻲﻓ ﺎﻨﻣ ﺔﻘﺛ شﺎﻛ يﺰﻳا ﺖﺴﺳﺎﺗ ،ﻲﻤﻗﺮﻟا
+                لﻮﺤﺘﻟا ﺮﺼﻣ ﻲﻓ ﺔﻴﻟﺎﻤﻟا تﺎﻠﻣﺎﻌﻤﻟا ﺮﻳﻮﻄﺘﻟ
               </p>
             </div>
           </div>
@@ -68,10 +66,7 @@ const AboutUs = () => {
             </div>
             <div className="about__timeline__text">
               <h2>2020</h2>
-              <p>
-                EasyCash have acquired the license from the Central Bank of
-                Egypt.
-              </p>
+              <p>ﻚﻨﺒﻟا ﺔﺼﺧر ﻰﻠﻋ شﺎﻛ يﺰﻳا ﺖﻠﺼﺣ يﺰﻛﺮﻤﻟا</p>
             </div>
           </div>
         </div>
@@ -80,17 +75,20 @@ const AboutUs = () => {
             <div className="about__vision">
               <img src={Vision} alt="Vision" />
               <div className="vision__text">
-                <h2>Vision</h2>
-                <p>To transform MENA region into a cashless society.</p>
+                <h2>انتيؤر</h2>
+                <p>
+                  ﺔﻠﻣﺎﻜﺘﻣ ﺔﻴﻛذ ﺔﻴﻟﺎﻣ لﻮﻠﺣ ﻢﻳﺪﻘﺗ داﺪﺴﻠﻟ ﺔﻔﻠﺘﺨﻣو ﻪﻨﻣا قﺮﻃ ﺮﻴﻓﻮﺗ
+                  لﺎﻠﺧ ﻦﻣ
+                </p>
               </div>
             </div>
             <div className="about__mission">
               <img src={Mission} alt="Mission" />
               <div className="vision__text">
-                <h2>Mission</h2>
+                <h2>ﺎﻨﺘﻤﻬﻣ</h2>
                 <p>
-                  Providing a state of art digital payment solutions, offering
-                  innovative & secure payment methods as an alternative to cash.
+                  قﺮﺸﻟا ﻪﻘﻄﻨﻣ ﻲﻓ ﻊﻓﺪﻟا قﺮﻃ ﻞﻴﻬﺴﺗ ﻲﻧوﺮﺘﻜﻟﺈﻟا ﻊﻓﺪﻟا ﻖﻳﺮﻃ ﻦﻋ ﻂﺳوﺄﻟا
+                  .يﺪﻘﻨﻟا ﻊﻓﺪﻟا ﻦﻣ ًﺎﻟﺪﺑ
                 </p>
               </div>
             </div>
@@ -98,8 +96,8 @@ const AboutUs = () => {
         </div>
         <div className="living__wrapper">
           <div className="living__hero">
-            <h2>Living Our Values</h2>
-            <p>Our beliefs distinguish us as a company</p>
+            <h2>انميق</h2>
+            <p>نﻮﻜﻧ ﻦﻣ دﺪﺤﺗ ﺎﻣ ﻲﻫ ﺎﻨﻤﻴﻗ</p>
           </div>
           <div className="living__cards">
             <div className="living__card">
@@ -173,13 +171,12 @@ const AboutUs = () => {
             <img src={CultureImg} alt="Culture" />
           </div>
           <div className="culture__text__container">
-            <h2>Our Culture</h2>
+            <h2>انتفاقث</h2>
             <p>
-              EasyCash believes in simplifying people's lives, be it customers
-              or business owners. Our values represent a big part of out
-              identity. we believe that innovation is the mean to a greater
-              future, that's why our employees show a great deal of commitment
-              and dedication, working as a one unit to achieve our mutual goals.
+              .لﺎﻤﻋا بﺎﺤﺻأ وا ءﺎﻠﻤﻋ اﻮﻧﺎﻛ اذإ .ﻦﻴﻳﺮﺼﻤﻟا ةﺎﻴﺣ ﻞﻴﻬﺴﺗ ﺔﻴﻤﻫﺄﺑ شﺎﻛ
+              يﺰﻳا ﻦﻣﺆﺗ .ﺎﻨﺘﻳﻮﻫ ﻦﻣ ﺮﻴﺒﻛ ءﺰﺟ ﺎﻨﻤﻴﻗ ﻞﺜﻤﺗو ﺎﻨﻴﻔﻇﻮﻣ نﺎﻓ ﻚﻟﺬﻟ ﻞﻀﻓأ
+              ﻞﺒﻘﺘﺴﻤﻟ ﻖﻳﺮﻄﻟا ﻮﻫ ﺪﻳﺪﺠﺘﻟا نا شﺎﻛ يﺰﻳا ﻲﻓ ﻦﻣﺆﻧ ﻦﺤﻧ .ﺔﻛﺮﺘﺸﻤﻟا
+              ﺎﻨﻓاﺪﻫا ﻖﻴﻘﺤﺘﻟ ﻲﻋﺎﻤﺠﻟا ﻞﻤﻌﻟاو ماﺰﺘﻟﺎﻟا ﻦﻣ ﺮﻴﺒﻛ رﺪﻗ ﻰﻠﻋ
             </p>
           </div>
         </div>
@@ -189,4 +186,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsAr;

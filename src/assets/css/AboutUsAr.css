@@ -1,0 +1,26 @@
+/* h1,
+p {
+  text-align: right !important;
+}
+
+.living__card p {
+  text-align: center !important;
+}
+
+.living__hero h2,
+.living__hero p {
+  text-align: center !important;
+} */
+
+.arabic__wrapper {
+  direction: rtl !important;
+}
+
+.living__cards {
+  direction: ltr !important;
+}
+
+.about__timeline__container *,
+.about__vision__container * {
+  direction: ltr !important;
+}

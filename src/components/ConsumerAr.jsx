@@ -1,8 +1,8 @@
 import React from "react";
 
 //Components
-import Footer from "./Footer";
-import Header from "./Header";
+import Header from "./HeaderAr";
+import Footer from "./FooterAr";
 
 //Image Files
 import PlayStore from "../assets/images/playstore.png";
@@ -20,10 +20,11 @@ import Cdots from "../assets/images/c-dots.png";
 
 //CSS File
 import "../assets/css/Consumer.css";
+import "../assets/css/ConsumerAr.css";
 
-const Consumer = () => {
+const ConsumerAr = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper arabic__wrapper">
       <Header />
       <div className="consumer__container">
         <section className="consumer__hero">
@@ -32,7 +33,7 @@ const Consumer = () => {
           </div>
           <div className="hero__text__section">
             <div className="hero__heading">
-              <h1>Your digital wallet for everyday Payments</h1>
+              <h1> ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا ﻚﺘﻈﻔﺤﻣ ﻪﻴﻣﻮﻴﻟا ﻚﺗﺎﻠﻣﺎﻌﻤﻟ</h1>
             </div>
             <div className="hero__cta">
               <img src={PlayStore} alt="PlayStore Link" />
@@ -43,13 +44,10 @@ const Consumer = () => {
         <div className="consumer__secondary">
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>QR Payments</h3>
-              <p>
-                Scan any QR code at nearby store and use the app to pay in
-                seconds.
-              </p>
+              <h3>QR لا دﻮﻛ ماﺪﺨﺘﺳﺎﺑ ﻊﻓدأ</h3>
+              <p>نﺎﻜﺳ لﺎﻠﺧ ﻦﻣ ﻲﻧاﻮﺛ ﻲﻓ ﻊﻓدا و ﻦﺸﻴﻜﻴﻠﺑﺎﻟا ﻞﻤﻌﺘﺳأ QR لا دﻮﻜﻟ</p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -59,13 +57,10 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Send Money</h3>
-              <p>
-                Save time and effort, send and receive money instantly from any
-                E-wallet in Egypt.
-              </p>
+              <h3>سﻮﻠﻓ ﺖﻌﺑأ</h3>
+              <p>ﻞﺒﻘﺘﺳا و ﺖﻌﺑا و كدﻮﻬﺠﻣ و ﻚﺘﻗو ﺮﻓو ﺮﺼﻣ ﻲﻓ ﺔﻈﻔﺤﻣ يأ ﻦﻣ سﻮﻠﻓ</p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -75,10 +70,13 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Top Up &amp; Withdraw from ATM</h3>
-              <p>Deposit and withdraw cash easily from any Meeza ATM.</p>
+              <h3>تﺎﻨﻴﻛﺎﻣ ﻦﻣ ﺐﺤﺳ و عاﺪﻳإ ﻲﻟﺎﻟا فاﺮﺼﻟا</h3>
+              <p>
+                ﺔﻨﻴﻛﺎﻣ يا ﻦﻣ عاﺪﻳا و ﺐﺤﺳ ﻞﻤﻌﺗ رﺪﻘﺗ ﻪﻟﻮﻬﺴﺑ ﻲﻟﺎﻟا فاﺮﺼﻠﻟ ةﺰﻴﻣ
+                تﺎﻨﻴﻛﺎﻣ ﻦﻣ
+              </p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -88,13 +86,13 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Request to Receive Money</h3>
+              <h3>سﻮﻠﻓ مﺎﻠﺘﺳا ﺐﻠﻃ</h3>
               <p>
-                Easily request money from your friends or others. Just enter the
-                amount and send the request.
+                دﺪﺤﺗ رﺪﻘﺗ ﻲﻧاﻮﺛ ﻲﻓ ,ﻪﻟﻮﻬﺴﺑ ﺪﺣ يا ﻦﻣ سﻮﻠﻓ ﺐﻠﻃأ ﺐﻠﻄﻟا ﻪﻠﺘﻌﺒﺗ و
+                ﺎﻬﺟﺎﺘﺤﻣ ﻲﻠﻟا ﺔﻤﻴﻘﻟا
               </p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -104,13 +102,10 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Online Cards</h3>
-              <p>
-                Safely make purchases online on any website with your virtual
-                online card.
-              </p>
+              <h3>ﻦﻳﺎﻠﻧوا ﻊﻓﺪﻟا ترﺎﻛ</h3>
+              <p>ﻊﻓﺪﺗ و يﺮﺘﺸﺘﻫ ﻊﻓﺪﻟا ترﺎﻛ لﺎﻠﺧ ﻦﻣ نﺎﻣأ و ﻪﻟﻮﻬﺴﺑ ﻦﻳﺎﻠﻧوا</p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -120,13 +115,12 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Split Bills</h3>
+              <h3>ةرﻮﺗﺎﻔﻟا ﻢﻴﺴﻘﺗ</h3>
               <p>
-                Instantly pay back anyone the dinner or any activity they
-                booked.
+                ﻚﺑﺎﺤﺻا و ﺖﻧا ةرﻮﺗﺎﻔﻟا اﻮﻤﺴﻘﺘﻫ ﻲﺘﻗﻮﻟد ﺖﻗو ﻊﻴﻀﺗ ﺮﻴﻏ ﻦﻣ ﻪﺟوﺮﺧ يا ﻲﻓ
               </p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -136,10 +130,12 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Shake to pay</h3>
-              <p>Shake your mobile to find available wallets around.</p>
+              <h3> Pay to Shake ﺔﻴﺻﺎﺧ</h3>
+              <p>
+                ﻆﻓﺎﺤﻣ بﺮﻗا ﻲﻗﺎﻠﺗ نﺎﺸﻋ pay to shake ﺔﻴﺻﺎﺧ مﺪﺨﺘﺳأ دﻮﻬﺠﻣ ﻞﻗﺎﺑ ﻚﻴﻟ
+              </p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -149,13 +145,13 @@ const Consumer = () => {
           </div>
           <div className="consumer__howto">
             <div className="consumer__howto__text">
-              <h3>Saving Plans</h3>
+              <h3>رخدا</h3>
               <p>
-                Manage your savings, choose your goals, select a plan and save
-                money
+                ﺎﻬﻘﻘﺤﺗ كﺪﻋﺎﺴﺘﻫ شﺎﻛ يﺰﻳا نﺎﺸﻋ ﻚﻓاﺪﻫا دﺪﺣ ﺎﻬﻨﻣ ﺮﺧﺪﺘﺗ و ﻚﺳﻮﻠﻓ ﻲﻓ
+                ﻢﻜﺤﺘﺗ ﻚﻧﺎﺑ
               </p>
               <a href="/">
-                Learn More <i className="fas fa-arrow-right"></i>
+                ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
               <img src={Cdots} alt="dots" />
             </div>
@@ -170,4 +166,4 @@ const Consumer = () => {
   );
 };
 
-export default Consumer;
+export default ConsumerAr;
