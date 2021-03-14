@@ -72,13 +72,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer__container {
+    position: relative;
+  }
+
   .footer__hero {
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__logo {
+    position: absolute;
+    bottom: 0;
   }
 
   .footer__ql {
     margin-top: 30px;
     width: 300px;
+    /* text-align: center; */
   }
 
   .footer__secondary {
@@ -88,5 +98,6 @@
   .footer__social {
     margin-top: 30px;
     align-self: center;
+    margin-bottom: 40px;
   }
 }
