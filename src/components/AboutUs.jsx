@@ -77,7 +77,7 @@ const AboutUs = () => {
         </div>
         <div className="vision__wrapper">
           <div className="vision__background"></div>
-          <div className="about__vision__container">
+          {/* <div className="about__vision__container">
             <div className="about__vision">
               <img src={Vision} alt="Vision" />
               <div className="vision__text">
@@ -92,6 +92,30 @@ const AboutUs = () => {
                 <p>
                   Providing a state of art digital payment solutions, offering
                   innovative & secure payment methods as an alternative to cash.
+                </p>
+              </div>
+            </div>
+          </div> */}
+          <div className="about__timeline__container">
+            <div className="about__timeline__entry about__timeline__entry__first">
+              <div className="about__timeline__img rocket__img">
+                <img src={Vision} alt="Rocket" />
+              </div>
+              <div className="about__timeline__text about__timeline__first">
+                <h2>Vision</h2>
+                <p>To transform MENA region into a cashless society.</p>
+              </div>
+            </div>
+            <div className="about__timeline__entry about__timeline__entry__second">
+              <div className="about__timeline__img tick__img">
+                <img src={Mission} alt="Tick" />
+              </div>
+              <div className="about__timeline__text">
+                <h2>Mission</h2>
+                <p className="mission__p">
+                  Providing a state of art digital payment solutions, offering
+                  innovative &amp; secure payment methods as an alternative to
+                  cash.
                 </p>
               </div>
             </div>

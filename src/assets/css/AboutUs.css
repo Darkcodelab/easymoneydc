@@ -153,7 +153,7 @@
 .about__mission img,
 .about__vision img {
   display: block;
-  padding: 50px 120px;
+  padding: 36px 120px;
 }
 
 .vision__text h2 {
@@ -192,7 +192,7 @@
 
 .living__cards {
   display: flex;
-  max-width: 1200px;
+  max-width: 1260px;
   justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -242,6 +242,11 @@
   line-height: 26px;
 }
 
+.mission__p {
+  max-width: 500px !important;
+  padding: 0;
+}
+
 @media screen and (max-width: 928px) {
   .culture__wrapper {
     flex-direction: column;
@@ -265,11 +270,15 @@
     flex-direction: column;
   }
   .about__hero img {
-    margin-top: 50px;
+    margin-top: 36px;
   }
 
   .rocket__img {
+    margin-top: 32px;
     padding: 0;
+  }
+  .tick__img {
+    margin-top: 32px;
   }
   .about__timeline__entry * {
     padding-right: 0 !important;
@@ -308,6 +317,10 @@
 
   .vision__background {
     height: 903px;
+  }
+
+  .culture__text__container p {
+    margin-bottom: 20px;
   }
 }
 
