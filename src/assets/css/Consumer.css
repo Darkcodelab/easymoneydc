@@ -159,7 +159,8 @@
 
 @media screen and (max-width: 768px) {
   .consumer__hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-top: 50px;
   }
 }
 

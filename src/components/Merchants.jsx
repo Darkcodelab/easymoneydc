@@ -25,7 +25,7 @@ const Merchants = () => {
     <div className="wrapper">
       <Header />
       <div className="consumer__container">
-        <section className="consumer__hero">
+        <section className="consumer__hero merchant__hero ">
           <div className="hero__image__section merchant__section">
             <img src={MerchantsMobile} alt="hero" />
           </div>
