@@ -30,7 +30,7 @@
 
 .about__timeline__container {
   max-width: 1200px;
-  margin: 165px auto 0;
+  margin: 88px auto 0;
 }
 
 .about__timeline__entry {
@@ -43,7 +43,7 @@
   position: relative;
 }
 .about__timeline__container {
-  padding-bottom: 150px;
+  padding-bottom: 40px;
 }
 
 .timeline__img {
@@ -85,7 +85,8 @@
 
 .about__timeline__entry__second p,
 .about__timeline__entry__second h2 {
-  padding-right: 100px;
+  padding-left: 100px;
+  max-width: 70%;
 }
 
 .about__timeline__img {
@@ -118,7 +119,7 @@
 
 .vision__background {
   width: 100%;
-  height: 848px;
+  height: 648px;
   background: #faf9fe;
   position: absolute;
   left: 0;
@@ -128,7 +129,7 @@
 .about__vision__container {
   max-width: 1200px;
   margin: 148px auto;
-  padding: 89px 10px;
+  padding: 0px 10px;
 }
 
 .about__vision,
@@ -296,16 +297,17 @@
   .about__vision,
   .about__mission {
     flex-direction: column-reverse;
+    padding: 30px 0;
   }
-  .about__vision {
-    padding-bottom: 60px;
+  ..about__mission img {
+    padding-bottom: 0;
   }
   .about__mission {
     margin-top: 80px;
   }
 
   .vision__background {
-    height: 1020px;
+    height: 903px;
   }
 }
 
@@ -332,7 +334,7 @@
 
 @media screen and (max-width: 470px) {
   .vision__background {
-    height: 1050px;
+    height: 970px;
   }
   .about__timeline__container {
     padding-bottom: 0;
