@@ -33,7 +33,7 @@ const ConsumerAr = () => {
           </div>
           <div className="hero__text__section">
             <div className="hero__heading">
-              <h1> ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا ﻚﺘﻈﻔﺤﻣ ﻪﻴﻣﻮﻴﻟا ﻚﺗﺎﻠﻣﺎﻌﻤﻟ</h1>
+              <h1>محفظتك الإلكترونيه لمعاملاتك اليوميه</h1>
             </div>
             <div className="hero__cta">
               <img src={PlayStore} alt="PlayStore Link" />

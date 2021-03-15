@@ -98,8 +98,8 @@
 .consumer__howto:nth-child(even) .consumer__howto__text {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
+  padding-left: 190px;
+  text-align: left;
 }
 
 .consumer__howto:nth-child(even) .consumer__howto__text img {
@@ -114,6 +114,9 @@
   .consumer__howto {
     grid-template-columns: 1fr;
   }
+  .consumer__howto__text {
+    position: initial;
+  }
   .consumer__howto__text,
   .consumer__howto__img {
     display: flex;
@@ -122,6 +125,22 @@
     justify-content: center !important;
     order: 1 !important;
     text-align: center !important;
+  }
+  .consumer__howto {
+    position: relative;
+  }
+
+  .consumer__howto__img {
+    margin-bottom: 39px;
+  }
+  .consumer__howto__text a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .consumer__howto:nth-child(even) .consumer__howto__text {
+    padding-left: 0;
   }
 }
 
