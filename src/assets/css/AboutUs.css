@@ -4,7 +4,7 @@
 
 .about__container {
   max-width: 1400px;
-  margin: 135px auto 0;
+  margin: 75px auto 0;
 }
 
 .about__hero {
@@ -128,7 +128,7 @@
 
 .about__vision__container {
   max-width: 1200px;
-  margin: 148px auto;
+  margin: 138px auto;
   padding: 0px 10px;
 }
 
@@ -167,7 +167,7 @@
   flex-direction: row-reverse;
 }
 .about__mission p {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .living__wrapper {
@@ -299,7 +299,7 @@
     flex-direction: column-reverse;
     padding: 30px 0;
   }
-  ..about__mission img {
+  .about__mission img {
     padding-bottom: 0;
   }
   .about__mission {
@@ -330,14 +330,20 @@
   .about__timeline__entry__second {
     padding-top: 100px;
   }
+  .living__hero {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .vision__background {
-    height: 970px;
+    height: 880px;
   }
   .about__timeline__container {
     padding-bottom: 0;
+    margin-top: 148px;
+  }
+  .about__vision__container {
     margin-top: 148px;
   }
 }
