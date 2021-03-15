@@ -172,7 +172,7 @@
 
 .living__wrapper {
   max-width: 1400px;
-  margin: 128px auto 136px;
+  margin: 128px auto 116px;
 }
 
 .living__hero {
@@ -341,9 +341,9 @@
   }
   .about__timeline__container {
     padding-bottom: 0;
-    margin-top: 148px;
+    margin-top: 60 px;
   }
   .about__vision__container {
-    margin-top: 148px;
+    margin-top: 133px;
   }
 }
