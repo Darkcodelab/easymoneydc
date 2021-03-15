@@ -42,6 +42,9 @@
 .about__timeline__container {
   position: relative;
 }
+.about__timeline__container {
+  padding-bottom: 150px;
+}
 
 .timeline__img {
   position: absolute;
@@ -214,7 +217,7 @@
 .culture__wrapper {
   display: flex;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0 auto 133px;
   flex-direction: row-reverse;
   justify-content: space-evenly;
 }
