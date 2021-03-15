@@ -26,7 +26,6 @@
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 70px;
-  text-align: center;
   color: var(--primary);
 }
 
@@ -36,13 +35,15 @@
 
 .hero__cta {
   display: flex;
-  justify-content: center;
 }
 .hero__cta img {
   display: block;
   max-width: 100%;
   width: 180px;
-  margin: 0 12px;
+}
+
+.applestore {
+  margin-left: 24px;
 }
 
 .consumer__secondary {
@@ -63,7 +64,7 @@
   font-weight: normal;
   max-width: 400px;
   color: #0f001a;
-  line-height: 28px;
+  line-height: 48px;
   letter-spacing: 2%;
 }
 

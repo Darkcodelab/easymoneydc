@@ -36,7 +36,11 @@ const Consumer = () => {
             </div>
             <div className="hero__cta">
               <img src={PlayStore} alt="PlayStore Link" />
-              <img src={AppleStore} alt="AppleStore Link" />
+              <img
+                src={AppleStore}
+                className="applestore"
+                alt="AppleStore Link"
+              />
             </div>
           </div>
         </section>
