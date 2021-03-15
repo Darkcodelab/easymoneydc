@@ -1,5 +1,14 @@
 .arabic__wrapper .consumer__container {
   direction: ltr !important;
+  text-align: right !important;
+}
+
+.arabic__wrapper p,
+h3,
+h2,
+h1,
+a {
+  text-align: right !important;
 }
 
 .arabic__wrapper .consumer__howto:nth-child(odd) {
