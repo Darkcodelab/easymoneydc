@@ -50,7 +50,7 @@ const AboutUs = () => {
             <img src={AboutLine} alt="Timeline" />
           </div>
           <div className="about__timeline__entry about__timeline__entry__first">
-            <div className="about__timeline__img">
+            <div className="about__timeline__img rocket__img">
               <img src={Rocket} alt="Rocket" />
             </div>
             <div className="about__timeline__text about__timeline__first">
@@ -63,7 +63,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="about__timeline__entry about__timeline__entry__second">
-            <div className="about__timeline__img">
+            <div className="about__timeline__img tick__img">
               <img src={Tick} alt="Tick" />
             </div>
             <div className="about__timeline__text">
@@ -76,6 +76,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="vision__wrapper">
+          <div className="vision__background"></div>
           <div className="about__vision__container">
             <div className="about__vision">
               <img src={Vision} alt="Vision" />
