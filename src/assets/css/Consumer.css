@@ -30,6 +30,10 @@
   color: var(--primary);
 }
 
+.consumer__hero p {
+  color: #656668;
+}
+
 .hero__cta {
   display: flex;
   justify-content: center;
@@ -58,13 +62,22 @@
   font-size: 32px;
   font-weight: normal;
   max-width: 400px;
+  color: #0f001a;
+  line-height: 28px;
+  letter-spacing: 2%;
 }
 
 .consumer__howto__text p {
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0;
+  color: #656668;
+  line-height: 26px;
   max-width: 400px;
+}
+
+.consumer__howto a {
+  color: #6654a4;
 }
 
 .consumer__howto__text {

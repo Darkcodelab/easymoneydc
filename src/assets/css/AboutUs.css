@@ -24,6 +24,8 @@
 
 .about__hero p {
   max-width: 588px;
+  line-height: 30px;
+  color: #656668;
 }
 
 .about__timeline__container {
@@ -64,6 +66,11 @@
   font-size: 32px;
   font-weight: normal;
   margin-bottom: 35px;
+}
+
+.about__timeline__text p {
+  line-height: 28px;
+  color: #6a7282;
 }
 
 .about__timeline__entry__first {
@@ -129,6 +136,12 @@
   /* margin: 76px 0; */
 }
 
+.about__vision p,
+.about__mission p {
+  line-height: 28px;
+  color: #656668;
+}
+
 .about__mission {
   margin-top: 176px;
 }
@@ -165,6 +178,7 @@
 .living__hero h2 {
   font-size: 32px;
   font-weight: normal;
+  color: #2b334e;
 }
 
 .living__hero p {
@@ -189,6 +203,10 @@
   border-radius: 32px;
 }
 
+.living__card p {
+  color: #2b334e;
+}
+
 .transparency-img {
   padding: 10px 0;
 }
@@ -204,6 +222,7 @@
 .culture__text__container h2 {
   font-size: 32px;
   font-weight: normal;
+  color: #2b334e;
 }
 
 .culture__img__container img {
@@ -216,6 +235,7 @@
   color: #6a7282;
   max-width: 700px;
   margin-bottom: 128px;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 928px) {
@@ -276,7 +296,7 @@
   }
 
   .vision__background {
-    height: 80%;
+    height: 81%;
   }
 }
 
