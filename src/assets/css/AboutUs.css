@@ -23,7 +23,7 @@
 }
 
 .about__hero p {
-  max-width: 588px;
+  max-width: 658px;
   line-height: 30px;
   color: #656668;
 }
@@ -43,7 +43,7 @@
   position: relative;
 }
 .about__timeline__container {
-  padding-bottom: 40px;
+  padding-bottom: 67px;
 }
 
 .timeline__img {
@@ -115,11 +115,12 @@
 
 .vision__wrapper {
   background: #faf9fe;
+  margin-top: 40px;
 }
 
 .vision__background {
   width: 100%;
-  height: 648px;
+  height: 595px;
   background: #faf9fe;
   position: absolute;
   left: 0;
@@ -172,7 +173,7 @@
 
 .living__wrapper {
   max-width: 1400px;
-  margin: 148px auto 126px;
+  margin: 130px auto 126px;
 }
 
 .living__hero {
@@ -284,6 +285,9 @@
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
+  .vision__background {
+    height: 668px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -316,7 +320,7 @@
   }
 
   .vision__background {
-    height: 903px;
+    height: 646px;
   }
 
   .culture__text__container p {
@@ -346,11 +350,14 @@
   .living__hero {
     text-align: left;
   }
+  .vision__background {
+    height: 783px;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .vision__background {
-    height: 880px;
+    height: 817px;
   }
   .about__timeline__container {
     padding-bottom: 0;
@@ -358,5 +365,14 @@
   }
   .about__vision__container {
     margin-top: 133px;
+  }
+  .tick__img {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .vision__background {
+    height: 880px;
   }
 }
