@@ -130,6 +130,7 @@
   .consumer__howto__text {
     position: initial;
   }
+
   .consumer__howto__text,
   .consumer__howto__img {
     display: flex;
@@ -147,9 +148,7 @@
     margin-bottom: 39px;
   }
   .consumer__howto__text a {
-    display: block;
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 20px;
   }
 
   .consumer__howto:nth-child(even) .consumer__howto__text {
@@ -160,6 +159,7 @@
 @media screen and (max-width: 768px) {
   .consumer__hero {
     flex-direction: column-reverse;
+    align-items: flex-start;
     padding-top: 50px;
   }
 }
@@ -171,5 +171,14 @@
   }
   .hero__cta img {
     margin: 12px 0;
+  }
+  * {
+    text-align: left !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+  .dots__img {
+    display: none !important;
   }
 }

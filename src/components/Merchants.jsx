@@ -55,7 +55,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Restaurants} alt="QR code" />
@@ -71,7 +71,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Restaurants} alt="QR code" />
@@ -87,7 +87,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Retails} alt="howto" />
@@ -103,7 +103,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Delivery} alt="howto" />
@@ -120,7 +120,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Taxi} alt="howto" />
@@ -136,7 +136,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Sports} alt="howto" />
@@ -153,7 +153,7 @@ const Merchants = () => {
               <a href="/">
                 Learn More <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Parking} alt="howto" />
