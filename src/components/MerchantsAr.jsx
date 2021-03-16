@@ -50,7 +50,7 @@ const MerchantsAr = () => {
         </section>
         <div className="consumer__secondary">
           <div className="consumer__howto" style={{ display: "none" }}>
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>ﻪﻈﻔﺤﻤﻟﺎﺑ ﻊﻓﺪﻟا لﻮﺒﻗ ﺔﻣﺪﺧ ﻢﻋﺎﻄﻤﻟا ﻲﻓ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا</h3>
               <p>ﻞﺒﻘﺘﺳا و ﺖﻌﺑا و كدﻮﻬﺠﻣ و ﻚﺘﻗو ﺮﻓو ﺮﺼﻣ ﻲﻓ ﺔﻈﻔﺤﻣ يأ ﻦﻣ سﻮﻠﻓ</p>
               <a href="/">
@@ -63,7 +63,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>ﻪﻈﻔﺤﻤﻟﺎﺑ ﻊﻓﺪﻟا لﻮﺒﻗ ﺔﻣﺪﺧ ﻢﻋﺎﻄﻤﻟا ﻲﻓ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا</h3>
               <p>ﻞﺒﻘﺘﺳا و ﺖﻌﺑا و كدﻮﻬﺠﻣ و ﻚﺘﻗو ﺮﻓو ﺮﺼﻣ ﻲﻓ ﺔﻈﻔﺤﻣ يأ ﻦﻣ سﻮﻠﻓ</p>
               <a href="/">
@@ -76,7 +76,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>
                 ﻪﻈﻔﺤﻤﻟﺎﺑ ﻊﻓﺪﻟا لﻮﺒﻗ ﺔﻣﺪﺧ و كﺎﺸﻛﺎﻟا ﻲﻓ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا ةﺮﻴﻐﺼﻟا
                 ﺮﺟﺎﺘﻤﻟا{" "}
@@ -95,7 +95,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>ﻪﻈﻔﺤﻤﻟﺎﺑ ﻊﻓﺪﻟا لﻮﺒﻗ ﻪﻣﺪﺧ ﻞﻴﺻﻮﺘﻟا و ﻦﺤﺸﻟا ﺪﻨﻋ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا</h3>
               <p>
                 , عﺮﺳا و ﻞﻬﺳأ ﻰﻘﺑ ﻚﺗﺎﻨﺤﺷ سﻮﻠﻓ ﻞﻴﺼﺤﺗ دﻮﺟﻮﻤﻟا code QR لا نﺎﻜﺴﻴﻫ
@@ -111,7 +111,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>ﻪﻈﻔﺤﻤﻟﺎﺑ ﻊﻓﺪﻟا لﻮﺒﻗ ﺔﻣﺪﺧ تﺎﻠﺣﺮﻟا ﻲﻓ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا</h3>
               <p>
                 ﺔﻟﻮﻬﺴﺑ ﺔﻠﺣﺮﻟا ﻦﻤﺗ ﻞﺼﺣ و شﺎﻜﻟا ﻞﻛﺎﺸﻣ ﻰﺴﻧأ ﻚﺑ صﺎﺨﻟا code QRلا
@@ -127,7 +127,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>ﻪﻈﻔﺤﻤﻟﺎﺑ ﺰﺠﺤﻟا لﻮﺒﻗ ﺔﻣﺪﺧ ﻪﻴﻧوﺮﺘﻜﻟﺈﻟا</h3>
               <p>
                 ﻚﺋﺎﻠﻤﻋ , شﺎﻛ يﺰﻳا ﻊﻣ عﺮﺳا و ﻞﻬﺳا ﻲﻘﺑ ﺰﺠﺤﻟا QR ﻞﻟ نﺎﻜﺳ اﻮﻠﻤﻌﻳ ﺎﻣ
@@ -143,7 +143,7 @@ const MerchantsAr = () => {
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text">
               <h3>جاﺮﺠﻟا مﻮﺳر ﻊﻓد ﺔﻣﺪﺧ</h3>
               <p>
                 ﺔﻟﻮﻬﺴﺑ ﺔﻠﺣﺮﻟا ﻦﻤﺗ ﻞﺼﺣ و شﺎﻜﻟا ﻞﻛﺎﺸﻣ ﻰﺴﻧأ ﻚﺑ صﺎﺨﻟا code QRلا

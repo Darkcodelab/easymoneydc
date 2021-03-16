@@ -363,6 +363,11 @@
     max-width: 100% !important;
   }
 }
+
+.about__arabic__wrapper .living__hero h2,
+.about__arabic__wrapper .living__hero p {
+  text-align: center !important;
+}
 .about__arabic__wrapper .living__cards p {
   text-align: center !important;
 }

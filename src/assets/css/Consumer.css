@@ -142,6 +142,11 @@
     order: 1 !important;
     text-align: center !important;
   }
+
+  .consumer_ar_text {
+    align-items: flex-end !important;
+  }
+
   .consumer__howto {
     position: relative;
   }
@@ -174,11 +179,17 @@
   .hero__cta img {
     margin: 12px 0;
   }
+  .consumer_ar_text h3 {
+    text-align: flex-end !important;
+    align-self: flex-end !important;
+  }
   * {
-    text-align: left !important;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: flex-start;
+  }
+  .consumer_ar_text h3 {
+    align-self: flex-end !important;
   }
   .dots__img {
     display: none !important;
