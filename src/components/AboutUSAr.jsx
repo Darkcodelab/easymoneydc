@@ -27,7 +27,7 @@ import "../assets/css/AboutUsAr.css";
 
 const AboutUsAr = () => {
   return (
-    <div className="wrapper arabic__wrapper">
+    <div className="wrapper arabic__wrapper about__arabic__wrapper">
       <Header />
       <div className="about__container">
         <section className="about__hero">

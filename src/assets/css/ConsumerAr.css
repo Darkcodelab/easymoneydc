@@ -15,12 +15,60 @@ a {
   text-align: right;
 }
 
-.arabic__wrapper .consumer__howto:nth-child(odd) a {
+/* .arabic__wrapper .consumer__howto:nth-child(odd) a {
   margin-right: 198px;
+} */
+
+.consumerAr-link {
+  align-self: flex-end !important;
+}
+
+@media screen and (max-width: 768px) {
+  .consumer__hero {
+    align-items: flex-end;
+  }
+}
+
+.arabic__wrapper .hero__cta {
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 1020px) {
   .arabic__wrapper .consumer__howto:nth-child(odd) a {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 779px) {
+  .arabic__wrapper .hero__cta {
+    justify-content: flex-end;
+  }
+}
+.arabic__wrapper .consumer__howto:nth-child(odd) a {
+  margin-right: 148px;
+}
+
+@media screen and (min-width: 1440px) {
+  .arabic__wrapper .consumer__howto:nth-child(odd) a {
+    margin-right: 198px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .arabic__wrapper .consumer__howto:nth-child(odd) a {
+    margin-right: 0;
+  }
+  .arabic__wrapper .consumer__howto a {
+    margin-right: 0;
+    text-align: right;
+    width: 100%;
+  }
+  .arabic__wrapper .consumer__howto .consumer_ar_text {
+    align-items: flex-end !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .arabic__wrapper .consumer_ar_text h3 {
+    text-align: right !important;
   }
 }

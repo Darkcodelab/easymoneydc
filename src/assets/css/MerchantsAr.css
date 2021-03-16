@@ -1,3 +1,14 @@
 .arabic__merchant__hero {
   direction: rtl !important;
 }
+
+.arabic__merchant__hero .hero__cta {
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 590px) {
+  .merchant__wrapper .about__timeline__entry {
+    text-align: right;
+    align-items: flex-end !important;
+  }
+}

@@ -35,41 +35,45 @@ const ConsumerAr = () => {
             <div className="hero__heading">
               <h1>محفظتك الإلكترونيه لمعاملاتك اليوميه</h1>
             </div>
-            <div className="hero__cta">
-              <img src={PlayStore} alt="PlayStore Link" />
+            <div className="hero__cta consumerAr-link">
+              <img
+                src={PlayStore}
+                className="applestore"
+                alt="PlayStore Link"
+              />
               <img src={AppleStore} alt="AppleStore Link" />
             </div>
           </div>
         </section>
         <div className="consumer__secondary">
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text  ">
               <h3>QR لا دﻮﻛ ماﺪﺨﺘﺳﺎﺑ ﻊﻓدأ</h3>
               <p>نﺎﻜﺳ لﺎﻠﺧ ﻦﻣ ﻲﻧاﻮﺛ ﻲﻓ ﻊﻓدا و ﻦﺸﻴﻜﻴﻠﺑﺎﻟا ﻞﻤﻌﺘﺳأ QR لا دﻮﻜﻟ</p>
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={QRConsumer} alt="QR code" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>سﻮﻠﻓ ﺖﻌﺑأ</h3>
               <p>ﻞﺒﻘﺘﺳا و ﺖﻌﺑا و كدﻮﻬﺠﻣ و ﻚﺘﻗو ﺮﻓو ﺮﺼﻣ ﻲﻓ ﺔﻈﻔﺤﻣ يأ ﻦﻣ سﻮﻠﻓ</p>
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={SendMoney} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>تﺎﻨﻴﻛﺎﻣ ﻦﻣ ﺐﺤﺳ و عاﺪﻳإ ﻲﻟﺎﻟا فاﺮﺼﻟا</h3>
               <p>
                 ﺔﻨﻴﻛﺎﻣ يا ﻦﻣ عاﺪﻳا و ﺐﺤﺳ ﻞﻤﻌﺗ رﺪﻘﺗ ﻪﻟﻮﻬﺴﺑ ﻲﻟﺎﻟا فاﺮﺼﻠﻟ ةﺰﻴﻣ
@@ -78,14 +82,14 @@ const ConsumerAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={ATM} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>سﻮﻠﻓ مﺎﻠﺘﺳا ﺐﻠﻃ</h3>
               <p>
                 دﺪﺤﺗ رﺪﻘﺗ ﻲﻧاﻮﺛ ﻲﻓ ,ﻪﻟﻮﻬﺴﺑ ﺪﺣ يا ﻦﻣ سﻮﻠﻓ ﺐﻠﻃأ ﺐﻠﻄﻟا ﻪﻠﺘﻌﺒﺗ و
@@ -94,27 +98,27 @@ const ConsumerAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={RequestMoney} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>ﻦﻳﺎﻠﻧوا ﻊﻓﺪﻟا ترﺎﻛ</h3>
               <p>ﻊﻓﺪﺗ و يﺮﺘﺸﺘﻫ ﻊﻓﺪﻟا ترﺎﻛ لﺎﻠﺧ ﻦﻣ نﺎﻣأ و ﻪﻟﻮﻬﺴﺑ ﻦﻳﺎﻠﻧوا</p>
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={OnlineCards} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>ةرﻮﺗﺎﻔﻟا ﻢﻴﺴﻘﺗ</h3>
               <p>
                 ﻚﺑﺎﺤﺻا و ﺖﻧا ةرﻮﺗﺎﻔﻟا اﻮﻤﺴﻘﺘﻫ ﻲﺘﻗﻮﻟد ﺖﻗو ﻊﻴﻀﺗ ﺮﻴﻏ ﻦﻣ ﻪﺟوﺮﺧ يا ﻲﻓ
@@ -122,14 +126,14 @@ const ConsumerAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={SplitBills} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3> Pay to Shake ﺔﻴﺻﺎﺧ</h3>
               <p>
                 ﻆﻓﺎﺤﻣ بﺮﻗا ﻲﻗﺎﻠﺗ نﺎﺸﻋ pay to shake ﺔﻴﺻﺎﺧ مﺪﺨﺘﺳأ دﻮﻬﺠﻣ ﻞﻗﺎﺑ ﻚﻴﻟ
@@ -137,14 +141,14 @@ const ConsumerAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={ShakeToPay} alt="howto" />
             </div>
           </div>
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text consumer_ar_text ">
               <h3>رخدا</h3>
               <p>
                 ﺎﻬﻘﻘﺤﺗ كﺪﻋﺎﺴﺘﻫ شﺎﻛ يﺰﻳا نﺎﺸﻋ ﻚﻓاﺪﻫا دﺪﺣ ﺎﻬﻨﻣ ﺮﺧﺪﺘﺗ و ﻚﺳﻮﻠﻓ ﻲﻓ
@@ -153,7 +157,7 @@ const ConsumerAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={SavingPlans} alt="howto" />

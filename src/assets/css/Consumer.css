@@ -68,7 +68,8 @@
   letter-spacing: 2%;
 }
 
-.consumer__howto__text p {
+.consumer__howto__text p,
+.consumer__howto__text a {
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0;

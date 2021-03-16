@@ -23,7 +23,7 @@ import "../assets/css/MerchantsAr.css";
 
 const MerchantsAr = () => {
   return (
-    <div className="wrapper arabic__wrapper">
+    <div className="wrapper arabic__wrapper merchant__wrapper">
       <Header />
       <div className="consumer__container">
         <section className="consumer__hero arabic__merchant__hero">
@@ -40,7 +40,11 @@ const MerchantsAr = () => {
             </div>
             <div className="hero__cta">
               <img src={PlayStore} alt="PlayStore Link" />
-              <img src={AppleStore} alt="AppleStore Link" />
+              <img
+                src={AppleStore}
+                className="applestore"
+                alt="AppleStore Link"
+              />
             </div>
           </div>
         </section>
@@ -52,7 +56,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Restaurants} alt="QR code" />
@@ -65,7 +69,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Restaurants} alt="QR code" />
@@ -84,7 +88,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Retails} alt="howto" />
@@ -100,7 +104,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Delivery} alt="howto" />
@@ -116,7 +120,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Taxi} alt="howto" />
@@ -132,7 +136,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Sports} alt="howto" />
@@ -148,7 +152,7 @@ const MerchantsAr = () => {
               <a href="/">
                 ﺪﻳﺰﻤﻟا فﺮﻋأ <i className="fas fa-arrow-right"></i>
               </a>
-              <img src={Cdots} alt="dots" />
+              <img src={Cdots} className="dots__img" alt="dots" />
             </div>
             <div className="consumer__howto__img">
               <img src={Parking} alt="howto" />

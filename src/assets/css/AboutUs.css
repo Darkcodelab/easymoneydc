@@ -353,6 +353,18 @@
   .vision__background {
     height: 783px;
   }
+  .about__arabic__wrapper .about__timeline__entry {
+    align-items: flex-end;
+  }
+  .about__arabic__wrapper p,
+  .about__arabic__wrapper h2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+}
+.about__arabic__wrapper .living__cards p {
+  text-align: center !important;
 }
 
 @media screen and (max-width: 470px) {
@@ -368,6 +380,25 @@
   }
   .tick__img {
     padding: 50px;
+  }
+  .about__arabic__wrapper .about__timeline__entry {
+    align-items: flex-end;
+  }
+  .about__arabic__wrapper p,
+  .about__arabic__wrapper h2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+  .about__arabic__wrapper .about__timeline__entry {
+    align-self: flex-end !important;
+  }
+
+  .about__arabic__wrapper .about__timeline__container {
+    direction: rtl !important;
+  }
+  .about__arabic__wrapper .about__vision {
+    align-items: flex-end;
   }
 }
 

@@ -34,7 +34,7 @@ const Consumer = () => {
             <div className="hero__heading">
               <h1>Your digital wallet for everyday Payments</h1>
             </div>
-            <div className="hero__cta">
+            <div className="hero__cta ">
               <img src={PlayStore} alt="PlayStore Link" />
               <img
                 src={AppleStore}
@@ -46,7 +46,7 @@ const Consumer = () => {
         </section>
         <div className="consumer__secondary">
           <div className="consumer__howto">
-            <div className="consumer__howto__text">
+            <div className="consumer__howto__text ">
               <h3>QR Payments</h3>
               <p>
                 Scan any QR code at nearby store and use the app to pay in
