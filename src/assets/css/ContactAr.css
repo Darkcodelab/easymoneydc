@@ -28,3 +28,16 @@
 .arabic__contact__container .map {
   justify-content: flex-end;
 }
+
+@media screen and (max-width: 420px) {
+  .arabic__contact__container .contact__form__div {
+    /* align-self: flex-end !important; */
+    align-items: stretch !important;
+  }
+  .arabic__contact__container .formgroup {
+    align-self: flex-end !important;
+  }
+  .input {
+    width: 100%;
+  }
+}

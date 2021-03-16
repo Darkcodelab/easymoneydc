@@ -272,6 +272,8 @@
   }
   .about__hero img {
     margin-top: 36px;
+    display: block;
+    max-width: 100%;
   }
 
   .rocket__img {
