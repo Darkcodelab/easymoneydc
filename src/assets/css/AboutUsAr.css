@@ -46,8 +46,13 @@ p {
 }
 
 @media screen and (max-width: 420px) {
-  .about__timeline__entry *,
-  .about__vision * {
+  .arabic__wrapper .about__timeline__entry *,
+  .arabic__wrapper .about__vision * {
     align-self: flex-end !important;
+  }
+
+  .arabic__wrapper .about__vision img {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
