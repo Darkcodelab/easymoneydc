@@ -51,8 +51,10 @@ p {
     align-self: flex-end !important;
   }
 
-  .arabic__wrapper .about__vision img {
+  .arabic__wrapper .about__vision img,
+  .arabic__wrapper .about__mission img {
     padding-left: 0px !important;
     padding-right: 0px !important;
+    align-self: flex-end !important;
   }
 }
