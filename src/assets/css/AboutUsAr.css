@@ -24,3 +24,30 @@ p {
 .about__vision__container * {
   direction: ltr !important;
 }
+
+@media screen and (max-width: 1080px) {
+  .arabic__wrapper .about__vision,
+  .arabic__wrapper .about__mission {
+    align-items: flex-end;
+  }
+  .arabic__wrapper .vision__background {
+    height: 784px;
+  }
+  .about__arabic__wrapper .living__hero h2,
+  .about__arabic__wrapper .living__hero p {
+    text-align: right !important;
+  }
+  .about__arabic__wrapper .about__timeline__container {
+    padding-bottom: 0;
+  }
+  .about__arabic__wrapper .living__wrapper {
+    margin-top: 147px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .about__timeline__entry *,
+  .about__vision * {
+    align-self: flex-end !important;
+  }
+}

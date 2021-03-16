@@ -71,6 +71,7 @@ const AboutUsAr = () => {
           </div>
         </div>
         <div className="vision__wrapper">
+          <div className="vision__background"></div>
           <div className="about__vision__container">
             <div className="about__vision">
               <img src={Vision} alt="Vision" />

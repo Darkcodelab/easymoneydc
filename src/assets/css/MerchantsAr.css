@@ -12,3 +12,12 @@
     align-items: flex-end !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .merchant__section {
+    margin-bottom: 50px;
+  }
+  .consumer__hero {
+    padding-top: 0;
+  }
+}
