@@ -20,6 +20,10 @@ p {
   direction: ltr !important;
 }
 
+.arabic__wrapper .about__vision__container {
+  margin: 108px auto 148px;
+}
+
 .about__timeline__container *,
 .about__vision__container * {
   direction: ltr !important;
@@ -29,6 +33,11 @@ p {
   .arabic__wrapper .about__vision,
   .arabic__wrapper .about__mission {
     align-items: flex-end;
+  }
+
+  .arabic__wrapper .about__vision img,
+  .arabic__wrapper .about__mission img {
+    align-self: center !important;
   }
   .arabic__wrapper .vision__background {
     height: 784px;
@@ -43,6 +52,10 @@ p {
   .about__arabic__wrapper .living__wrapper {
     margin-top: 147px !important;
   }
+  .arabic__wrapper .about__timeline__img {
+    align-self: center !important;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -50,11 +63,14 @@ p {
   .arabic__wrapper .about__vision * {
     align-self: flex-end !important;
   }
+  .arabic__wrapper .about__timeline__img {
+    align-self: center !important;
+  }
 
   .arabic__wrapper .about__vision img,
   .arabic__wrapper .about__mission img {
     padding-left: 0px !important;
     padding-right: 0px !important;
-    align-self: flex-end !important;
+    align-self: center !important;
   }
 }
